@@ -1,2 +1,2 @@
-# CSMPVR-Server
+# CSVRMP-Server
 Server for CSVRMP
