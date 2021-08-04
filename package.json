@@ -1,0 +1,19 @@
+{
+  "name": "csvrmp-server",
+  "version": "0.0.1",
+  "description": "Server for CSVR-MP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSVRMP/CSMPVR-Server.git"
+  },
+  "author": "ERROR#0418",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSVRMP/CSMPVR-Server/issues"
+  },
+  "homepage": "https://github.com/CSVRMP/CSMPVR-Server#readme"
+}
