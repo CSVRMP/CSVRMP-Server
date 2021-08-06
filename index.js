@@ -23,9 +23,12 @@ server.on('listening', function () {
 // Message event. This event is automatically executed when this server receives a new message
 // That means, when we use FUDPPing::UDPEcho in Unreal Engine 4 this event will trigger.
 server.on('message', function (message, remote) {
+    console.log(`Recieved ${message} from ${remote.address}:${remote.port}`)
+
     try {
         var JSONData = JSON.parse(message)
     } catch (error) {
+        console.log(error)
         var JSONData = {packetType: -1}
     }
     
